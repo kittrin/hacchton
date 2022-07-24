@@ -1,0 +1,5 @@
+.circle1 {
+    position: absolute;
+    border-radius: 50%;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), radial-gradient(93.2% 93.2% at 100% 14.64%, rgba(144, 255, 184, 0.75) 0%, rgba(69, 211, 175, 0.75) 20.87%, rgba(79, 146, 240, 0.75) 76.46%, rgba(123, 174, 244, 0.75) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}

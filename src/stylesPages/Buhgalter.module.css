@@ -1,0 +1,101 @@
+.body {
+    height: calc(100vh - 100px);
+    width: 100vw;
+    background: #A6F2ED;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.developer {
+    width: 70%;
+    height: 80%;
+}
+.profile {
+    width: 100%;
+    height: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.profile{
+    font-size: 20px;
+}
+.developerName {
+    width: 95%;
+    height: 100%;
+    background: linear-gradient(266.26deg, rgba(79, 146, 240, 0.75) 0%, rgba(79, 146, 240, 0.375) 122.34%);
+    backdrop-filter: blur(130px);
+    border-radius: 15px;
+    padding: 10px;
+}
+.message {
+    padding: 5px 10px 5px 10px;
+    background: linear-gradient(266.26deg, rgba(79, 146, 240, 0.75) 0%, rgba(79, 146, 240, 0.375) 122.34%);
+    backdrop-filter: blur(130px);
+    border-radius: 15px;
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.message svg {
+    width: 2em !important;
+    height: 2em !important;
+}
+.message:hover {
+    background: linear-gradient(266.26deg, rgb(79, 146, 240) 0%, rgb(79, 146, 240) 122.34%);
+}
+.osnova{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(266.26deg, rgba(79, 146, 240, 0.75) 0%, rgba(79, 146, 240, 0.375) 122.34%);
+    backdrop-filter: blur(130px);
+    border-radius: 15px;
+}
+.block1{
+    width: 35%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.statistics{
+    width: 60%;
+    height: 90%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.but{
+    width: 100%;
+    height: 28%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), linear-gradient(268.58deg, #1FD6C8 0%, #4F92F0 100%);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 38px;
+    color: #E9FBFA;
+}

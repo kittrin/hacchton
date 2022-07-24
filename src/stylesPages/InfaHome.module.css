@@ -1,0 +1,109 @@
+.body {
+    height: calc(100vh - 100px);
+    width: 100vw;
+    background: #A6F2ED;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.developer {
+    width: 70%;
+    height: 80%;
+}
+.developerName {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(266.26deg, rgba(79, 146, 240, 0.75) 0%, rgba(79, 146, 240, 0.375) 122.34%);
+    backdrop-filter: blur(130px);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.profile {
+    width: 100%;
+    height: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.osnova{
+    width: 100%;
+    height: 80%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(266.26deg, rgba(79, 146, 240, 0.75) 0%, rgba(79, 146, 240, 0.375) 122.34%);
+    backdrop-filter: blur(130px);
+    border-radius: 15px;
+}
+.osnovaTxt{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.buttons{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.dop{
+    width: 25%;
+    height: 80%;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), linear-gradient(268.58deg, #1FD6C8 0%, #4F92F0 100%);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.nak{
+    display: flex;
+    padding: 0 20px 0 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 80%;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), linear-gradient(268.58deg, #1FD6C8 0%, #4F92F0 100%);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+.txt1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    color: #FFFFFF;
+}
+.txt2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+    color: #FFFFFF;
+}

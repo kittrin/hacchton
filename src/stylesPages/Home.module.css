@@ -1,0 +1,216 @@
+@media screen and (max-width: 700px) {
+    .developer {
+        width: 100%;
+        height: 90%;
+    }
+    .profile{
+        font-size: 12px;
+    }
+    .cardHome{
+        width: 100%;
+        height: 80%;
+    }
+    .photoHome{
+        width: 50%;
+        height: 30%;
+    }
+    .infoHome{
+        width: 100%;
+        height: auto;
+    }
+    .static{
+        width: 100%;
+        height: 40%;
+    }
+    .sum, .plata , .chat, .statistics{
+        width: 40%;
+        height: 40px;
+    }
+    .graphics{
+        width: 90%;
+        height: 30%;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .developer {
+        width: 70%;
+        height: 90%;
+    }
+    .cardHome{
+        width: 100%;
+        height: 80%;
+    }
+    .profile{
+        font-size: 20px;
+    }
+    .photoHome{
+        width: 35%;
+        height: 100%;
+    }
+    .infoHome{
+        width: 60%;
+        height: 100%;
+    }
+    .static{
+        width: 40%;
+        height: 100%;
+    }
+    .sum, .plata , .chat, .statistics{
+        width: 100%;
+        height: 23%;
+    }
+    .graphics{
+        width: 55%;
+        height: 100%;
+    }
+}
+
+.body {
+    height: calc(100vh - 100px);
+    width: 100vw;
+    background: #A6F2ED;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.developer {
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.developerName {
+    width: 95%;
+    height: 100%;
+    background: linear-gradient(266.26deg, rgba(79, 146, 240, 0.75) 0%, rgba(79, 146, 240, 0.375) 122.34%);
+    backdrop-filter: blur(130px);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.profile {
+    width: 100%;
+    height: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+
+.message {
+    padding: 5px 10px 5px 10px;
+    background: linear-gradient(266.26deg, rgba(79, 146, 240, 0.75) 0%, rgba(79, 146, 240, 0.375) 122.34%);
+    backdrop-filter: blur(130px);
+    border-radius: 15px;
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.message svg {
+    width: 2em !important;
+    height: 2em !important;
+}
+.message:hover {
+    background: linear-gradient(266.26deg, rgb(79, 146, 240) 0%, rgb(79, 146, 240) 122.34%);
+}
+
+.cardHome{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.photoHome{
+    background: url("https://sun9-6.userapi.com/impf/zAjNslwY78FqpWsJvXT-MaHqU95kEJEadLZsiw/edTir2i3EdM.jpg?size=382x515&quality=95&sign=812654edb6160fa7685603c6adce8312&type=album");
+    background-size: cover;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.infoHome{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.dataHome {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 80%;
+}
+.nameHome{
+    text-align: center;
+    width: 100%;
+    height: 19%;
+    background: linear-gradient(266.26deg, rgba(79, 146, 240, 0.75) 0%, rgba(79, 146, 240, 0.375) 122.34%);
+    backdrop-filter: blur(130px);
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.static{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.sum, .plata , .chat, .statistics{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), linear-gradient(268.58deg, #1FD6C8 0%, #4F92F0 100%);
+    border-radius: 15px;
+    padding: 10px;
+}
+.graphics{
+    padding: 10px;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.0503567);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), linear-gradient(268.58deg, #1FD6C8 0%, #4F92F0 100%);
+    border-radius: 15px;
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+.txt1{
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    color: #FFFFFF;
+    z-index: 11;
+
+}
+.txt2{
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    color: #E9FBFA;
+    z-index: 12;
+}
